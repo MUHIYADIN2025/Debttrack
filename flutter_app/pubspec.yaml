@@ -1,0 +1,80 @@
+name: debttrack
+description: Smart debt collection management for small businesses
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # HTTP client
+  http: ^1.2.1
+
+  # Local storage (JWT token, user session)
+  shared_preferences: ^2.2.3
+
+  # Date formatting
+  intl: ^0.19.0
+
+  # PDF generation
+  pdf: ^3.11.1
+  printing: ^5.13.1
+
+  # Charts & visualizations
+  fl_chart: ^0.68.0
+
+  # Image picker (profile photo)
+  image_picker: ^1.1.2
+
+  # Connectivity check
+  connectivity_plus: ^6.0.3
+
+  # Local notifications
+  flutter_local_notifications: ^17.1.2
+
+  # App icons
+  cupertino_icons: ^1.0.8
+
+  # URL launcher (for calling customers)
+  url_launcher: ^6.3.0
+
+  # Animations
+  flutter_animate: ^4.5.0
+
+  # Number formatting
+  decimal: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.9
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: DM Sans
+      fonts:
+        - asset: assets/fonts/DMSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/DMSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/DMSans-Bold.ttf
+          weight: 700
+    - family: DM Mono
+      fonts:
+        - asset: assets/fonts/DMMono-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/DMMono-Medium.ttf
+          weight: 500
