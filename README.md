@@ -279,3 +279,6 @@ MIT License — free to use and modify for commercial projects.
 ---
 
 *Built with ❤️ for Somali small business merchants*
+
+# 👨‍💻 Author
+MUHIYADIN2025
